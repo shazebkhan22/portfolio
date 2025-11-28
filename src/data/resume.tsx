@@ -142,7 +142,6 @@ export const DATA = {
         "PostgreSQL",
         "Strapi CMS",
         "TailwindCSS",
-        ,
         "Framer Motion",
       ],
       links: [
@@ -198,7 +197,6 @@ export const DATA = {
         "Typescript",
         "TailwindCSS",
         "TailwindCSS",
-        ,
         "Strapi CMS",
         "Framer Motion",
       ],
