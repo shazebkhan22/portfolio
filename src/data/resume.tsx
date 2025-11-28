@@ -53,7 +53,7 @@ export const DATA = {
         name: "X",
         url: "",
         icon: Icons.x,
-        navbar: true,
+        navbar: false,
       },
       WhatsApp: {
         name: "WhatsApp",
@@ -65,7 +65,7 @@ export const DATA = {
         name: "Youtube",
         url: "",
         icon: Icons.youtube,
-        navbar: true,
+        navbar: false,
       },
       email: {
         name: "Send Email",
