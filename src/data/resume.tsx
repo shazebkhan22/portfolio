@@ -1,12 +1,12 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon, GitGraph } from "lucide-react";
 
 export const DATA = {
-  name: "Shazeb Khan",
+  name: "Shazeb Khan - Developer Portfolio",
   initials: "SK",
   url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  location: "Mumbai, India",
+  locationLink: "https://maps.app.goo.gl/b9fBFPLWt9jGekAK6",
   description:
     "Full-Stack Developer turned Freelancer. Building websites, solving problems, and sharing the journey to all.",
   summary:"A highly motivated and skilled student with a strong foundation in web development and database management systems. Experienced in developing dynamic and responsive web applications using modern technologies and frameworks. Proven ability to lead and collaborate effectively in team environments. Passionate about creating intuitive, user-friendly digital experiences.",
@@ -28,10 +28,12 @@ export const DATA = {
     "GitHub",
     "Strapi CMS",
     "Nginx",
+    "Framer Motion"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/resources", icon: GitGraph, label: "Resources" },
   ],
   contact: {
     email: "kshazeb22sep@gmail.com",
@@ -45,7 +47,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/shazeb-khan-7a04a2271/",
+        url: "https://www.linkedin.com/in/shazebkhann/",
         icon: Icons.linkedin,
         navbar: true,
       },
@@ -75,11 +77,10 @@ export const DATA = {
       },
     },
   },
-
   work: [
     {
-      company: "Cygnus AI",
-      href: "https://atomic.finance",
+      company: "Cygnus Analytics Pvt. Ltd.",
+      href: "https://cygnusanalytics.ai",
       badges: [],
       location: "Remote",
       title: "Full Stack Developer",
@@ -92,7 +93,7 @@ export const DATA = {
     {
       company: "W.E. Matter PXT Pvt. Ltd.",
       badges: [],
-      href: "https://shopify.com",
+      href: "https://we-matter.com/",
       location: "Remote",
       title: "Software Developer Intern",
       logoUrl: "/we-logo.jpg",
@@ -131,7 +132,7 @@ export const DATA = {
   projects: [
     {
       title: "Cygnus AI",
-      href: "https://analytics-website-sooty.vercel.app/",
+      href: "https://cygnusanalytics.ai/",
       dates: "Oct 2025 - Nov 2025",
       active: true,
       description:
@@ -147,7 +148,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://analytics-website-sooty.vercel.app/",
+          href: "https://cygnusanalytics.ai/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -157,7 +158,7 @@ export const DATA = {
     },
     {
       title: "Cygnus Information Solutions",
-      href: "https://cygnus-info.vercel.app",
+      href: "https://cygnussolutions.co.in/",
       dates: "April 2025 - August 2025",
       active: true,
       description:
@@ -173,14 +174,14 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://cygnus-info.vercel.app",
+          href: "https://cygnussolutions.co.in/",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "",
-          icon: <Icons.github className="size-3" />,
-        },
+        // {
+        //   type: "Source",
+        //   href: "",
+        //   icon: <Icons.github className="size-3" />,
+        // },
       ],
       image: "",
       video: "/cisv.mp4",
@@ -206,32 +207,14 @@ export const DATA = {
           href: "https://himalaya-frontend.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "",
-          icon: <Icons.github className="size-3" />,
-        },
+        // {
+        //   type: "Source",
+        //   href: "https://himalaya-frontend.vercel.app",
+        //   icon: <Icons.github className="size-3" />,
+        // },
       ],
       image: "",
       video: "/hpv.mp4",
-    },
-  ],
-  hackathons: [
-    {
-      title: "Portal Hackathon",
-      dates: "October 29, 2016",
-      location: "Kingston, Ontario",
-      description:
-        "Developed an internal widget for uploading assignments using Waterloo's portal app",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/portal-hackathon.png",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/UWPortalSDK/crowmark",
-        },
-      ],
     },
   ],
 } as const;
