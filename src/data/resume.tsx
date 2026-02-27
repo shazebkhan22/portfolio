@@ -8,27 +8,45 @@ export const DATA = {
   location: "Mumbai, India",
   locationLink: "https://maps.app.goo.gl/b9fBFPLWt9jGekAK6",
   description:
-    "Full-Stack Developer turned Freelancer. Building websites, solving problems, and sharing the journey to all.",
-  summary:"A highly motivated and skilled student with a strong foundation in web development and database management systems. Experienced in developing dynamic and responsive web applications using modern technologies and frameworks. Proven ability to lead and collaborate effectively in team environments. Passionate about creating intuitive, user-friendly digital experiences.",
+    "Full-Stack Developer | React, Next.js, Node.js | Scalable, high-performance web appslications.",
+  summary:
+    "A highly motivated and skilled student with a strong foundation in web development and database management systems. Experienced in developing dynamic and responsive web applications using modern technologies and frameworks. Proven ability to lead and collaborate effectively in team environments. Passionate about creating intuitive, user-friendly digital experiences.",
   avatarUrl: "/me2.jpg",
   skills: [
     "React",
     "Next.js",
-    "Typescript",
-    "Node.js",
-    "Python",
-    "Postgres",
-    "Docker",
-    "Java",
-    "C++",
+    "TypeScript",
+    "JavaScript (ES6+)",
     "TailwindCSS",
+    "Framer Motion",
+    "Ant Design",
+    "Responsive Design",
+    "SEO",
+    "Redux Toolkit",
+    "Zustand",
+    "React Query",
+    "Axios",
+    "Node.js",
+    "Express.js",
+    "REST APIs",
+    "JWT Authentication",
+    "Serverless Functions",
+    "Strapi CMS",
     "MongoDB",
+    "Mongoose",
+    "PostgreSQL",
     "SQL",
+    "Docker",
+    "Nginx",
+    "Vercel",
     "Git",
     "GitHub",
-    "Strapi CMS",
-    "Nginx",
-    "Framer Motion"
+    "Vite",
+    "Prettier",
+    "Figma",
+    "Python",
+    "Java",
+    "C++",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -131,6 +149,34 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "FootInn",
+      href: "",
+      dates: "Jan 2026 - Present",
+      active: true,
+      description:
+        "I designed and developed FootInn, a modern and high-performance turf booking platform that enables users to check real-time availability, reserve sports turfs, and confirm bookings instantly. The system features a clean, intuitive interface that simplifies slot selection, scheduling, and secure payments, ensuring a seamless experience for players and facility managers alike.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma ORM",
+        "NeonDB",
+        "Express.js",
+        "Shadcn UI",
+        "TailwindCSS",
+        "Framer Motion",
+      ],
+      links: [
+        {
+          type: "In Progress",
+          href: "",
+          icon: <Icons.progress className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/finn.mp4",
+    },
+    {
       title: "Cygnus AI",
       href: "https://cygnusanalytics.ai/",
       dates: "Oct 2025 - Nov 2025",
@@ -144,6 +190,7 @@ export const DATA = {
         "Strapi CMS",
         "TailwindCSS",
         "Framer Motion",
+        "SEO Optimization",
       ],
       links: [
         {
@@ -153,8 +200,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "/caiv.mp4",
+      video: "/caiv.mp4",
     },
     {
       title: "Cygnus Information Solutions",
@@ -170,6 +216,7 @@ export const DATA = {
         "Strapi CMS",
         "TailwindCSS",
         "Framer Motion",
+        "SEO Optimization",
       ],
       links: [
         {
@@ -197,9 +244,9 @@ export const DATA = {
         "React",
         "Typescript",
         "TailwindCSS",
-        "TailwindCSS",
         "Strapi CMS",
         "Framer Motion",
+        "SEO Optimization",
       ],
       links: [
         {
