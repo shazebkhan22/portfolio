@@ -8,7 +8,7 @@ export const DATA = {
   location: "Mumbai, India",
   locationLink: "https://maps.app.goo.gl/b9fBFPLWt9jGekAK6",
   description:
-    "Full-Stack Developer | React, Next.js, Node.js | Scalable, high-performance web appslications.",
+    "Full-Stack Developer | React, Next.js, Node.js | Scalable, high-performance web applications.",
   summary:
     "A highly motivated and skilled student with a strong foundation in web development and database management systems. Experienced in developing dynamic and responsive web applications using modern technologies and frameworks. Proven ability to lead and collaborate effectively in team environments. Passionate about creating intuitive, user-friendly digital experiences.",
   avatarUrl: "/me2.jpg",
